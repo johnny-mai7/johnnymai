@@ -5,7 +5,7 @@ function sendMail(params){
         subject_sender: document.getElementById("subjectSender").value,
         message_sender: document.getElementById("message").value,
     };
-    emailjs.send('{{SERVICE ID}}','{{TEMPLATE ID}}',tempParams)
+    emailjs.send('service_gt8aypl','{{TEMPLATE ID}}',tempParams)
      .then(function(res){
         Swal.fire({
             position: 'center',
