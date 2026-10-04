@@ -32,7 +32,7 @@ $(document).ready(function () {
 
     // typing animation script
     var typed = new Typed(".typing",{
-        strings: ["Software Engineer","Full-Stack Developer","AI Advocate","Gamer"],
+        strings: ["Software Engineer","Full-Stack Developer","AI Advocate","Gamer", "Mediocre Golfer", "Disney Fan"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -40,7 +40,7 @@ $(document).ready(function () {
         
     });
     var typed = new Typed(".typing-2",{
-        strings: ["Software Engineer","Full-Stack Developer","AI Advocate","Gamer"],
+        strings: ["Software Engineer","Full-Stack Developer","AI Advocate","Gamer", "Mediocre Golfer", "Disney Fan"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
